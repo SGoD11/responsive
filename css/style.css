@@ -1,0 +1,131 @@
+*{
+    padding: 0%;
+    /* margin: 1% 2%; */
+}
+body{
+    background-color: black;
+    color: antiquewhite;
+}
+.logo{
+    display: flex;
+}
+.logoImage{
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    /* float: right; */
+}
+.heading{
+    clear: both;
+    text-align: center;
+    color: rgb(55, 98, 199);
+    font-size: xx-large;
+}
+.spaan{
+    color: aqua;
+}
+.images {
+    display: flex; 
+    position: relative;
+    width: 100%;
+}
+.images img{
+    border:0.6rem solid rgb(215, 190, 190);
+    border-radius: 50% ;
+    height: 30rem;
+    width:30rem;
+}
+.tom, .map, .forest,.book{
+    text-align: justify;
+    display: inline-block;
+    margin: 1%;
+}
+p{
+    border: 0.1rem solid wheat;
+    border-radius: 5%;
+    text-align: center;
+    color: rgb(188, 148, 216);
+}
+h2{
+    text-align: center;
+    color:blueviolet;
+}
+@media (max-width: 680px) {
+    .logo{
+        display: flex;
+    }
+    .logoImage{
+        border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    }
+    .heading{
+        /* clear: both; */
+        text-align: center;
+        color: rgb(55, 98, 199);
+        font-size: xx-large;
+    }
+    h1{
+        font-size: smaller;
+    }
+    .images{
+        display: block;
+    }
+    .images img{
+        height: 24rem;
+        width: 22rem;
+        margin: 0% 25%;
+    }
+    .images div{
+        margin: 2% 0%;
+    }
+    h2,p{
+        text-align: center;
+    }
+    h2{
+        color: chartreuse;
+    }
+    p{
+        color: green;
+    }
+}
+@media (min-width:681px) and (max-width:1024px) {
+    .logo{
+        display: flex;
+    }
+    .logoImage{
+        border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    }
+    .heading{
+        /* clear: both; */
+        text-align: center;
+        color: rgb(55, 98, 199);
+        font-size: xx-large;
+    }
+    h1{
+        font-size: smaller;
+    }
+    .images{
+        display: block;
+    }
+    .images img{
+        height: 24rem;
+        width: 22rem;
+        margin: 0% 25%;
+    }
+    .images div{
+        margin: 2% 0%;
+    }
+    h2,p{
+        text-align: center;
+    }
+    h2{
+        color: aqua;
+    }
+    p{
+        color: blue;
+    }
+}
+
